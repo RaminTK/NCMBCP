@@ -5,7 +5,6 @@ from tqdm import tqdm
 import random
 from math import sqrt, exp, floor
 
-
 def Read_location(file):
     f = open('/content/drive/MyDrive/Colab Notebooks/MBCP/'+file, 'r')
     data = []
