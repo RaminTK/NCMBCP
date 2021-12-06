@@ -28,6 +28,7 @@ def Read_donation(file):
         dur+= total_distance[rout[i]][rout[i+1]]
     return dur
 
+
 def degree_n_poss(old_poss,first_list,total_distance):
     new_poss = []
     for i in old_poss :
