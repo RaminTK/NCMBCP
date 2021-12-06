@@ -224,6 +224,7 @@ def weak_del (fitness,population,population_timing,p_min):
     return fitness,population,population_timing
 
 
+
 def spatial_st (initial_sol,initial_time,donation_data,spt,total_distance,iter, MaxIter, sigma_initial,sigma_final):
     solution = dc(initial_sol)
     start_time = dc(initial_time)
